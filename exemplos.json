@@ -1,0 +1,185 @@
+{
+  "treinos": [
+    {
+      "treino": {
+        "data": "2026-09-16",
+        "foco": "Costas, core & condicionamento",
+        "objetivo": "Força com controlo. Termina com 20 minutos de intensidade.",
+        "duracao_total_minutos": 55,
+        "categoria": "Misto",
+        "aquecimento": [
+          {
+            "exercicio": "Air Bike",
+            "duracao_minutos": 3
+          },
+          {
+            "exercicio": "PVC Passes",
+            "repeticoes": 20
+          },
+          {
+            "exercicio": "Mobilidade torácica",
+            "duracao_minutos": 2
+          }
+        ],
+        "blocos_principais": [
+          {
+            "bloco": 1,
+            "tipo": "Força / Acessórios",
+            "exercicios": [
+              {
+                "nome": "Inverted Row",
+                "series": 3,
+                "repeticoes": "10–12",
+                "descanso_segundos": 120,
+                "notas": "Mantém o corpo alinhado e aproxima o peito da barra."
+              },
+              {
+                "nome": "Lat Pulldown",
+                "series": 3,
+                "repeticoes": 12,
+                "carga_kg": 40,
+                "descanso_segundos": 90
+              },
+              {
+                "tipo_execucao": "Superset",
+                "rondas": 3,
+                "descanso_apos_ronda_segundos": 60,
+                "exercicios": [
+                  {
+                    "nome": "Dumbbell Row",
+                    "repeticoes": 12,
+                    "carga_kg": 18
+                  },
+                  {
+                    "nome": "Dead Bug",
+                    "repeticoes": 16,
+                    "notas": "Expira na extensão; mantém a lombar em contacto com o chão."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "bloco": 2,
+            "tipo": "AMRAP",
+            "duracao_minutos": 20,
+            "rondas_completadas": 0,
+            "exercicios": [
+              {
+                "nome": "Spiderman Push Up",
+                "repeticoes": 20
+              },
+              {
+                "nome": "Kettlebell Swing",
+                "repeticoes": 15,
+                "carga_kg": 16
+              },
+              {
+                "nome": "Mountain Climbers",
+                "repeticoes": 30
+              }
+            ]
+          }
+        ],
+        "notas": "Regista como te sentiste, cargas e ajustes para a próxima sessão."
+      }
+    },
+    {
+      "treino": {
+        "data": "2026-09-14",
+        "tipo": "Membros inferiores",
+        "objetivo": "Perda de peso / Preservação muscular",
+        "duracao_total_minutos": 60,
+        "aquecimento": {
+          "concluido": true,
+          "detalhes": "Cardio moderado e mobilidade articular"
+        },
+        "exercicios": [
+          {
+            "ordem": 1,
+            "nome": "Agachamento Livre",
+            "tipo_execucao": "Série tradicional",
+            "series": 4,
+            "repeticoes": 10,
+            "carga_kg": 60,
+            "descanso_segundos": 60
+          },
+          {
+            "ordem": 3,
+            "tipo_execucao": "Superset",
+            "rondas": 3,
+            "descanso_apos_ronda_segundos": 60,
+            "exercicios": [
+              {
+                "nome": "Deadlift Romeno",
+                "repeticoes": 12,
+                "carga_kg": 60
+              },
+              {
+                "nome": "Elevação de gémeos",
+                "repeticoes": 15,
+                "carga_kg": 20
+              }
+            ]
+          }
+        ],
+        "cardio_final": {
+          "tipo": "Passadeira",
+          "tempo_total_minutos": 10,
+          "etapas": [
+            {
+              "duracao_minutos": 5,
+              "velocidade_kmh": 8
+            },
+            {
+              "duracao_minutos": 5,
+              "velocidade_kmh": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "treino": {
+        "data": "2026-09-12",
+        "foco": "Potência & resistência",
+        "duracao_total_minutos": 45,
+        "bloco_1_potencia": {
+          "exercicios": [
+            {
+              "nome": "Box Jump",
+              "series": 4,
+              "repeticoes": 6,
+              "descanso_segundos": 90
+            }
+          ]
+        },
+        "bloco_2_forca": {
+          "exercicios": [
+            {
+              "nome": "Front Squat",
+              "series": 4,
+              "repeticoes": 8,
+              "carga_kg": 40,
+              "descanso_segundos": 90
+            }
+          ]
+        },
+        "bloco_3_amrap": {
+          "duracao_minutos": 12,
+          "rondas_completadas": 4,
+          "exercicios": [
+            {
+              "nome": "Burpee",
+              "repeticoes": 8
+            },
+            {
+              "nome": "Air Squat",
+              "repeticoes": 12
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

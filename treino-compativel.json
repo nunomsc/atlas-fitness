@@ -1,0 +1,120 @@
+{
+  "treino": {
+    "data": "2026-09-18",
+    "foco": "Cadeia Posterior, Potência e Condicionamento Metabólico",
+    "aquecimento": [
+      {
+        "exercicio": "Remo",
+        "duracao_minutos": 3
+      },
+      {
+        "exercicio": "Kettlebell Jefferson Curl",
+        "carga_kg": 12,
+        "repeticoes": 15
+      },
+      {
+        "exercicio": "Reverse Lunge",
+        "series": 2,
+        "repeticoes": 15
+      },
+      {
+        "exercicio": "PVC External Rotation",
+        "series": 2,
+        "repeticoes": 10
+      },
+      {
+        "exercicio": "Kettlebell Halo Lunge com Rotação",
+        "series": 2,
+        "repeticoes": 10
+      }
+    ],
+    "bloco_1_potencia": {
+      "tipo": "Complex de Halteres",
+      "series": 3,
+      "repeticoes_por_exercicio": 12,
+      "carga_kg_por_halter": 12.5,
+      "exercicios": [
+        {
+          "nome": "Dumbbell Hang Clean High Pull",
+          "series": 3,
+          "repeticoes": 12,
+          "carga_kg_por_halter": 12.5
+        },
+        {
+          "nome": "Dumbbell Hang Power Clean",
+          "series": 3,
+          "repeticoes": 12,
+          "carga_kg_por_halter": 12.5
+        },
+        {
+          "nome": "Dumbbell Hang Power Clean and Push Press",
+          "series": 3,
+          "repeticoes": 12,
+          "carga_kg_por_halter": 12.5
+        }
+      ]
+    },
+    "bloco_2_forca": {
+      "exercicio": "Deadlift Tradicional",
+      "series": 3,
+      "repeticoes": 8,
+      "carga_kg": 80,
+      "exercicios": [
+        {
+          "exercicio": "Deadlift Tradicional",
+          "series": 3,
+          "repeticoes": 8,
+          "carga_kg": 80
+        }
+      ]
+    },
+    "bloco_3_amrap": {
+      "duracao_minutos": 20,
+      "rondas_completadas": 3,
+      "exercicios_por_ronda": [
+        {
+          "nome": "Dumbbell Gorilla Rows",
+          "repeticoes": 20,
+          "carga_kg_por_halter": 10
+        },
+        {
+          "nome": "Dual Dumbbell Swings",
+          "repeticoes": 20,
+          "carga_kg_por_halter": 10
+        },
+        {
+          "nome": "Single Arm Dumbbell Clean and Press",
+          "repeticoes": 20,
+          "detalhes": "10 repetições por braço",
+          "carga_kg": 10
+        },
+        {
+          "nome": "Remo Indoor",
+          "distancia_metros": 300
+        }
+      ],
+      "exercicios": [
+        {
+          "nome": "Dumbbell Gorilla Rows",
+          "repeticoes": 20,
+          "carga_kg_por_halter": 10
+        },
+        {
+          "nome": "Dual Dumbbell Swings",
+          "repeticoes": 20,
+          "carga_kg_por_halter": 10
+        },
+        {
+          "nome": "Single Arm Dumbbell Clean and Press",
+          "repeticoes": 20,
+          "detalhes": "10 repetições por braço",
+          "carga_kg": 10
+        },
+        {
+          "nome": "Remo Indoor",
+          "distancia_metros": 300
+        }
+      ]
+    }
+  }
+}
